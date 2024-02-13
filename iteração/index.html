@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codificador e Decodificador</title>
+        <link rel="stylesheet" href="/Decodificador/iteração/style.css">
+        <link rel="shortcut icon" href="/Decodificador/esp2.jpg" type="image/x-icon">
+    </head>
+    <body>
+
+       <main class="main container">
+          <header class="cabecalho">
+              <img src="/Decodificador/esp2.jpg" alt="espião">
+              <h1>Mensagens Codificadas</h1>
+          </header>
+
+          <div class="container-input">
+             <div class="input">
+                <textarea  id="input-texto" placeholder="Digite seu texto aqui!" ></textarea>
+                <p>ATENÇÃO: APENAS LETRAS MAIÚSCULAS E SEM ACENTO</p>
+             </div>
+
+        <div id="output">
+            <img src="/Decodificador/esp2.jpg" alt="espião">
+            <h2>Sua mensagem aparecerá aqui...</h2>
+            <span>Digite um texto que pretende Criptografar ou Descriptografar</span>
+        </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-bnt">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            </div>
+        </div>
+       </main>
+
+       <footer class="rodape">
+          <div class="icons">
+            <a href="https://www.youtube.com/"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href=""><ion-icon name="logo-github"></ion-icon></a>
+            <h3>Desenvolvido por Vlaviano Pires</h3>
+
+          </div>
+       </footer>
+
+        <script src="/Decodificador/iteração/app.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html> 
